@@ -21,10 +21,13 @@ public class Boletin6_1 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduzca un número positivo:");
+        System.out.println("Introduzca un número:");
         double num = teclado.nextDouble();
         if(num > 0){
             System.out.println(num + " es un número positivo");
+        }
+        else if(num < 0){
+            System.out.println(num + " es un número negativo");
         }
     }
     
