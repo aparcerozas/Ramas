@@ -20,6 +20,7 @@ public class Boletin6_1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Alumno alumno1 = new Alumno("Pedro", "12345678A", "986394524", 25);
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduzca un número:");
         double num = teclado.nextDouble();

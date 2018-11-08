@@ -16,5 +16,11 @@ public class Alumno {
     private int edad;
     
     public Alumno(){}
+    public Alumno(String nombre, String dni, String telefono, int edad){
+        this.nombre = nombre;
+        this.dni = dni;
+        this.telefono = telefono;
+        this.edad = edad;
+    }
     
 }
