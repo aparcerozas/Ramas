@@ -29,6 +29,9 @@ public class Boletin6_1 {
         else if(num < 0){
             System.out.println(num + " es un número negativo");
         }
+        else{
+            System.out.println(num + " no es ni positivo ni negativo");
+        }
     }
     
 }
